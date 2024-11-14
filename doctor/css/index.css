@@ -1,0 +1,91 @@
+/* Custom CSS for hover effect */
+.navbar-nav li a:hover {
+  color: #fff !important;
+  background-color: #0d6efd !important;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Additional styling for index.php */
+.jumbotron {
+  background-color: #f8f9fa;
+  padding: 80px 20px;
+  margin-top: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.jumbotron h1 {
+  font-weight: bold;
+  color: #0d6efd;
+}
+
+.jumbotron p {
+  color: #495057;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+/* Responsive Media Queries */
+
+/* Mobile Devices (up to 600px) */
+@media (max-width: 600px) {
+  .navbar-nav li a {
+    font-size: 14px;
+    padding: 10px;
+  }
+
+  .jumbotron {
+    padding: 50px 10px;
+    margin-top: 20px;
+  }
+
+  .jumbotron h1 {
+    font-size: 1.8rem;
+  }
+
+  .jumbotron p {
+    font-size: 1rem;
+  }
+}
+
+/* Tablets (601px to 768px) */
+@media (min-width: 601px) and (max-width: 768px) {
+  .navbar-nav li a {
+    font-size: 16px;
+    padding: 12px;
+  }
+
+  .jumbotron {
+    padding: 60px 15px;
+    margin-top: 25px;
+  }
+
+  .jumbotron h1 {
+    font-size: 2.2rem;
+  }
+
+  .jumbotron p {
+    font-size: 1.05rem;
+  }
+}
+
+/* Laptops (769px to 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+  .navbar-nav li a {
+    font-size: 17px;
+    padding: 15px;
+  }
+
+  .jumbotron {
+    padding: 70px 20px;
+    margin-top: 30px;
+  }
+
+  .jumbotron h1 {
+    font-size: 2.5rem;
+  }
+
+  .jumbotron p {
+    font-size: 1.1rem;
+  }
+}
